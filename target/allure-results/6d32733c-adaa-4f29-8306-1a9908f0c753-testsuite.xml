@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519587632300" stop="1519587666286" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет Таск 1</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1519587632316" stop="1519587666284" status="failed">
+            <name>Яндекс Маркет Заполнение формы</name>
+            <title>Яндекс Маркет Заполнение формы</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: expected:&lt;Модели не совпадают&gt; but was:&lt;true&gt;</message>
+                <stack-trace>java.lang.AssertionError: expected:&lt;Модели не совпадают&gt; but was:&lt;true&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at steps.StepsDefinition.checkPresence(StepsDefinition.java:74)
+	at ✽.И проверить что список содержит "МОДЕЛЬ"(task.feature:23)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1519587632321" stop="1519587636215" status="passed">
+                    <name>Дано открыта страница "https://yandex.ru/"</name>
+                    <title>Дано открыта страница "https://yandex.ru/"</title>
+                </step>
+                <step start="1519587636215" stop="1519587648234" status="passed">
+                    <name>Тогда нажать на "Маркет"</name>
+                    <title>Тогда нажать на "Маркет"</title>
+                </step>
+                <step start="1519587648234" stop="1519587653398" status="passed">
+                    <name>И нажать на "Электроника"</name>
+                    <title>И нажать на "Электроника"</title>
+                </step>
+                <step start="1519587653398" stop="1519587658852" status="passed">
+                    <name>И нажать на "Телевизоры"</name>
+                    <title>И нажать на "Телевизоры"</title>
+                </step>
+                <step start="1519587658853" stop="1519587659160" status="passed">
+                    <name>Если заполнить в секции "Цена" поле:</name>
+                    <title>Если заполнить в секции "Цена" поле:</title>
+                </step>
+                <step start="1519587659161" stop="1519587659798" status="passed">
+                    <name>И выбрать в секции "Производитель" чек-боксы:</name>
+                    <title>И выбрать в секции "Производитель" чек-боксы:</title>
+                </step>
+                <step start="1519587659798" stop="1519587660137" status="passed">
+                    <name>И нажать на "Применить"</name>
+                    <title>И нажать на "Применить"</title>
+                </step>
+                <step start="1519587660137" stop="1519587660175" status="passed">
+                    <name>Тогда проверить что элементов на странице "12"</name>
+                    <title>Тогда проверить что элементов на странице "12"</title>
+                </step>
+                <step start="1519587660175" stop="1519587660218" status="passed">
+                    <name>Если у первого элемента в списке запомнить "МОДЕЛЬ"</name>
+                    <title>Если у первого элемента в списке запомнить "МОДЕЛЬ"</title>
+                </step>
+                <step start="1519587660219" stop="1519587660621" status="passed">
+                    <name>Тогда заполнить в секции "Поиск" поле:</name>
+                    <title>Тогда заполнить в секции "Поиск" поле:</title>
+                </step>
+                <step start="1519587660621" stop="1519587666157" status="passed">
+                    <name>И нажать на "Найти"</name>
+                    <title>И нажать на "Найти"</title>
+                </step>
+                <step start="1519587666158" stop="1519587666283" status="failed">
+                    <name>И проверить что список содержит "МОДЕЛЬ"</name>
+                    <title>И проверить что список содержит "МОДЕЛЬ"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Яндекс Маркет Заполнение формы"/>
+                <label name="feature" value="Яндекс Маркет Таск 1"/>
+                <label name="host" value="Ivan_PC"/>
+                <label name="thread" value="4632@Ivan_PC.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет Таск 1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519573003919" stop="1519573018312" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет Таск 1</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1519573003953" stop="1519573018286" status="pending">
+            <name>Яндекс Маркет Заполнение формы</name>
+            <title>Яндекс Маркет Заполнение формы</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1519573003967" stop="1519573012819" status="passed">
+                    <name>Дано открыта страница "https://yandex.ru/"</name>
+                    <title>Дано открыта страница "https://yandex.ru/"</title>
+                </step>
+                <step start="1519573012820" stop="1519573018272" status="passed">
+                    <name>Тогда нажать на "Маркет"</name>
+                    <title>Тогда нажать на "Маркет"</title>
+                </step>
+                <step start="1519573018275" stop="1519573018276" status="canceled">
+                    <name>выбрать в меню "Электроника"</name>
+                    <title>выбрать в меню "Электроника"</title>
+                </step>
+                <step start="1519573018278" stop="1519573018278" status="canceled">
+                    <name>И нажать на "Телевизоры"</name>
+                    <title>И нажать на "Телевизоры"</title>
+                </step>
+                <step start="1519573018279" stop="1519573018279" status="canceled">
+                    <name>Если заполнить в секции "Цена" поле:</name>
+                    <title>Если заполнить в секции "Цена" поле:</title>
+                </step>
+                <step start="1519573018280" stop="1519573018280" status="canceled">
+                    <name>И выбрать в секции "Производитель" чек-боксы:</name>
+                    <title>И выбрать в секции "Производитель" чек-боксы:</title>
+                </step>
+                <step start="1519573018280" stop="1519573018281" status="canceled">
+                    <name>И нажать на "Применить"</name>
+                    <title>И нажать на "Применить"</title>
+                </step>
+                <step start="1519573018281" stop="1519573018282" status="canceled">
+                    <name>Тогда проверить что элементов на странице "12"</name>
+                    <title>Тогда проверить что элементов на странице "12"</title>
+                </step>
+                <step start="1519573018282" stop="1519573018283" status="canceled">
+                    <name>Если у первого элемента в списке запомнить "МОДЕЛЬ"</name>
+                    <title>Если у первого элемента в списке запомнить "МОДЕЛЬ"</title>
+                </step>
+                <step start="1519573018283" stop="1519573018283" status="canceled">
+                    <name>Тогда заполнить в секции "Поиск" поле:</name>
+                    <title>Тогда заполнить в секции "Поиск" поле:</title>
+                </step>
+                <step start="1519573018283" stop="1519573018283" status="canceled">
+                    <name>И нажать на "Найти"</name>
+                    <title>И нажать на "Найти"</title>
+                </step>
+                <step start="1519573018284" stop="1519573018284" status="canceled">
+                    <name>И проверить что список содержит "МОДЕЛЬ"</name>
+                    <title>И проверить что список содержит "МОДЕЛЬ"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Яндекс Маркет Заполнение формы"/>
+                <label name="feature" value="Яндекс Маркет Таск 1"/>
+                <label name="host" value="Ivan_PC"/>
+                <label name="thread" value="3776@Ivan_PC.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет Таск 1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519572299922" stop="1519572309438" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет Таск 1</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1519572299982" stop="1519572309353" status="passed">
+            <name>Яндекс Маркет Заполнение формы</name>
+            <title>Яндекс Маркет Заполнение формы</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1519572299992" stop="1519572309342" status="passed">
+                    <name>Дано открыта страница "https://yandex.ru/"</name>
+                    <title>Дано открыта страница "https://yandex.ru/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309342" stop="1519572309343" status="passed">
+                    <name>Тогда нажать на "Маркет"</name>
+                    <title>Тогда нажать на "Маркет"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309344" stop="1519572309344" status="passed">
+                    <name>Тогда нажать на "Электроника"</name>
+                    <title>Тогда нажать на "Электроника"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309345" stop="1519572309345" status="passed">
+                    <name>И нажать на "Телевизоры"</name>
+                    <title>И нажать на "Телевизоры"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309345" stop="1519572309347" status="passed">
+                    <name>Если заполнить в секции "Цена" поле:</name>
+                    <title>Если заполнить в секции "Цена" поле:</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309347" stop="1519572309348" status="passed">
+                    <name>И выбрать в секции "Производитель" чек-боксы:</name>
+                    <title>И выбрать в секции "Производитель" чек-боксы:</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309348" stop="1519572309349" status="passed">
+                    <name>И нажать на "Применить"</name>
+                    <title>И нажать на "Применить"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309349" stop="1519572309350" status="passed">
+                    <name>Тогда проверить что элементов на странице "12"</name>
+                    <title>Тогда проверить что элементов на странице "12"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309350" stop="1519572309350" status="passed">
+                    <name>Если у первого элемента в списке запомнить "МОДЕЛЬ"</name>
+                    <title>Если у первого элемента в списке запомнить "МОДЕЛЬ"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309351" stop="1519572309351" status="passed">
+                    <name>Тогда заполнить в секции "Поиск" поле:</name>
+                    <title>Тогда заполнить в секции "Поиск" поле:</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309351" stop="1519572309351" status="passed">
+                    <name>И нажать на "Найти"</name>
+                    <title>И нажать на "Найти"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1519572309352" stop="1519572309352" status="passed">
+                    <name>И проверить что список содержит "МОДЕЛЬ"</name>
+                    <title>И проверить что список содержит "МОДЕЛЬ"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Яндекс Маркет Заполнение формы"/>
+                <label name="feature" value="Яндекс Маркет Таск 1"/>
+                <label name="host" value="Ivan_PC"/>
+                <label name="thread" value="4540@Ivan_PC.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет Таск 1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519572802528" stop="1519572836879" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет Таск 1</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1519572802585" stop="1519572836878" status="broken">
+            <name>Яндекс Маркет Заполнение формы</name>
+            <title>Яндекс Маркет Заполнение формы</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:446)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at pages.Page.lambda$new$0(Page.java:21)
+	at pages.Page.clickOn(Page.java:15)
+	at steps.StepsDefinition.clickApply(StepsDefinition.java:31)
+	at ✽.Тогда нажать на "Электроника"(task.feature:7)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1519572802595" stop="1519572813583" status="passed">
+                    <name>Дано открыта страница "https://yandex.ru/"</name>
+                    <title>Дано открыта страница "https://yandex.ru/"</title>
+                </step>
+                <step start="1519572813583" stop="1519572818468" status="passed">
+                    <name>Тогда нажать на "Маркет"</name>
+                    <title>Тогда нажать на "Маркет"</title>
+                </step>
+                <step start="1519572818469" stop="1519572836852" status="broken">
+                    <name>Тогда нажать на "Электроника"</name>
+                    <title>Тогда нажать на "Электроника"</title>
+                </step>
+                <step start="1519572836852" stop="1519572836854" status="canceled">
+                    <name>И нажать на "Телевизоры"</name>
+                    <title>И нажать на "Телевизоры"</title>
+                </step>
+                <step start="1519572836854" stop="1519572836868" status="canceled">
+                    <name>Если заполнить в секции "Цена" поле:</name>
+                    <title>Если заполнить в секции "Цена" поле:</title>
+                </step>
+                <step start="1519572836868" stop="1519572836868" status="canceled">
+                    <name>И выбрать в секции "Производитель" чек-боксы:</name>
+                    <title>И выбрать в секции "Производитель" чек-боксы:</title>
+                </step>
+                <step start="1519572836869" stop="1519572836870" status="canceled">
+                    <name>И нажать на "Применить"</name>
+                    <title>И нажать на "Применить"</title>
+                </step>
+                <step start="1519572836870" stop="1519572836874" status="canceled">
+                    <name>Тогда проверить что элементов на странице "12"</name>
+                    <title>Тогда проверить что элементов на странице "12"</title>
+                </step>
+                <step start="1519572836874" stop="1519572836875" status="canceled">
+                    <name>Если у первого элемента в списке запомнить "МОДЕЛЬ"</name>
+                    <title>Если у первого элемента в списке запомнить "МОДЕЛЬ"</title>
+                </step>
+                <step start="1519572836876" stop="1519572836876" status="canceled">
+                    <name>Тогда заполнить в секции "Поиск" поле:</name>
+                    <title>Тогда заполнить в секции "Поиск" поле:</title>
+                </step>
+                <step start="1519572836876" stop="1519572836876" status="canceled">
+                    <name>И нажать на "Найти"</name>
+                    <title>И нажать на "Найти"</title>
+                </step>
+                <step start="1519572836877" stop="1519572836877" status="canceled">
+                    <name>И проверить что список содержит "МОДЕЛЬ"</name>
+                    <title>И проверить что список содержит "МОДЕЛЬ"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Яндекс Маркет Заполнение формы"/>
+                <label name="feature" value="Яндекс Маркет Таск 1"/>
+                <label name="host" value="Ivan_PC"/>
+                <label name="thread" value="2752@Ivan_PC.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет Таск 1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
